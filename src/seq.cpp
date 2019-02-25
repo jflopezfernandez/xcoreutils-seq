@@ -68,9 +68,9 @@ int main(int argc, char *argv[])
         ( "first", Opts::value<int>()->default_value(1), "Start value" )
         ( "last", Opts::value<int>(), "End value" )
         ( "increment", Opts::value<int>()->default_value(1), "The value to increment by" )
-        ( "format,f", "Use printf style floating-point FORMAT" )
-        ( "separator,s", "Use STRING to separate numbers (default: \\n)" )
-        ( "equal-width,w", "Equalize width by padding with leading zeroes" )
+        /* TODO: ( "format,f", "Use printf style floating-point FORMAT" )*/
+        /* TODO: ( "separator,s", "Use STRING to separate numbers (default: \\n)" )*/
+        /* TODO: ( "equal-width,w", "Equalize width by padding with leading zeroes" )*/
         ( "help", "Display this help message" )
         ( "version", "Display program version" )
     ;
